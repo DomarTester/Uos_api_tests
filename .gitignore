@@ -10,14 +10,12 @@ __pycache__/
 
 # Virtual Environment
 .venv/
-.env/
-venv/
-ENV/
+*.env
+
+
 
 # pytest / allure
-reports/
-html_reports/
-allure-report/
+reports/**
 *.db
 
 # IDE / Editor
