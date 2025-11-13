@@ -16,6 +16,26 @@ It covers a complete workflow using `GET`, `POST`, and `DELETE` operations — f
 
 ---
 
+## 📋 Prerequisites
+
+1. **Python 3.10+**
+   - Verify installation:
+     ```bash
+     python3 --version   # Linux/macOS
+     python --version    # Windows
+     ```
+   - If Python is missing, install it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. **pip (Python package manager)**
+   - Usually comes with Python.
+   - Upgrade pip:
+     ```bash
+     python3 -m pip install --upgrade pip  # Linux/macOS
+     python -m pip install --upgrade pip   # Windows
+     ```
+3. **UOS Server (UniFi OS) with an active API and a generated API key** 
+
+
 ## ⚙️ Setup
 
 1. Clone the repository or extract the ZIP.
@@ -24,9 +44,14 @@ It covers a complete workflow using `GET`, `POST`, and `DELETE` operations — f
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate   # On macOS/Linux
 .venv\Scripts\activate      # On Windows
 ```
+or
+```bash
+python3 -m venv .venv
+source .venv/bin/activate   # On macOS/Linux
+```
+
 
 4. Install dependencies:
 ```bash
@@ -34,7 +59,7 @@ pip install -r requirements.txt
 ```
 
 ## 🔧 Configuration
-Edit the .env file with your UniFi (UOS) details. Use the '.env.sample' file as a template.
+Create and edit the .env file with your UniFi (UOS) details. Use the '.env.sample' file as a template.
 
 ## ▶️ Run Tests
 Basic Run
