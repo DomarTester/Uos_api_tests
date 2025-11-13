@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from urllib3.exceptions import InsecureRequestWarning
 import urllib3
 
-# Automatically load environment variables from .env
 load_dotenv()
 
 # Disable self-signed certificate warnings globally

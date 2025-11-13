@@ -12,8 +12,6 @@ __pycache__/
 .venv/
 *.env
 
-
-
 # pytest / allure
 reports/**
 *.db
